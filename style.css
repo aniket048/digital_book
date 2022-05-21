@@ -147,6 +147,7 @@ a {
 h4 {
   color: #555;
   font-weight: normal;
+  overflow: hidden;
 }
 
 .col-4 p {
@@ -507,11 +508,6 @@ th:last-child {
 .form-container {
   background: #fff;
   width: 300px;
-}
-
-.form-container {
-  background: #fff;
-  width: 300px;
   height: 400px;
   position: relative;
   text-align: center;
@@ -540,7 +536,7 @@ th:last-child {
   padding: 0 20px;
   position: absolute;
   top: 130px;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 form input {
@@ -582,25 +578,123 @@ form a {
   height: 3px;
   margin-top: 8px;
   transform: translateX(100px);
-  transition: transform .5s
-  
+  transition: transform 0.5s;
 }
 
+/* ----------------forgot password------------ */
 
+#assistance {
+  width: 100%;
+}
 
+#FIndicator {
+  width: 200px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(50px);
+  margin-bottom: 20px;
+}
+.form-container p {
+  margin-bottom: 12px;
+}
 
+.Fform-container {
+  background: #fff;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
 
+  /* border-radius: 5px; */
+}
 
+#forgot-password-form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+  padding-top: 120px;
+}
+.Fform-container span {
+  font-weight: bold;
+  padding: 0 10px;
+  color: #555;
+  width: 100px;
+}
 
+#password-image {
+  width: 100px;
+  height: auto;
+}
 
+/* -------------contact-us-form------------- */
 
+#CIndicator {
+  width: 110px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(95px);
+  margin-bottom: 20px;
+}
 
+#contact-us-form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+}
 
+/* ----------------about-us-page----------------- */
 
+.Aform-container {
+  background: #fff;
+  width: 1000px;
+  height: 250px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  border-style: dotted;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
 
+.Aform-container span {
+  font-weight: bold;
+  color: red;
+  padding: 0 5px;
+  width: 100px;
+}
+#AIndicator {
+  width: 110px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(450px);
+  margin-bottom: 20px;
+}
+.contributers h2 {
+  font-weight: normal;
+  font-family: "Courier New";
+  text-align: right;
+  margin-right: 330px;
+  /* cursor: pointer; */
+}
 
-
-
+.about-page {
+  padding: 50px 0;
+  /* background: radial-gradient(#fff, #00d4ff); */
+  /* background: radial-gradient(#096079 , #00d4ff); */
+  /* background: radial-gradient(#020024,#096079 , #ffa200);  */
+  /* background: radial-gradient(#03101d , #c2939b);  */
+}
 
 /* --------------------media query for screen less then 600px screen size--------- */
 
